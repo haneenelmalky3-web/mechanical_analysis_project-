@@ -1,0 +1,31 @@
+
+
+/*
+=======================================================
+creating the initial_envirinment for the raw dataset
+
+=======================================================
+*/
+
+Use master ;
+GO 
+--->>Creating the 'MechanicalDatabase' Database
+create database MechanicalDatabase ;
+
+GO
+
+Use MechanicalDatabase;
+
+GO
+--->>Creating Schemas 
+create schema bronze1;
+
+GO
+
+create schema silver1;
+
+GO 
+
+create schema gold;
+
+GO 
